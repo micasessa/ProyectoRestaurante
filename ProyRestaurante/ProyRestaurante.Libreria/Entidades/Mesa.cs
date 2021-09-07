@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyRestaurante.Libreria
+namespace ProyRestaurante.Libreria.Entidades
 {
     class Mesa
     {

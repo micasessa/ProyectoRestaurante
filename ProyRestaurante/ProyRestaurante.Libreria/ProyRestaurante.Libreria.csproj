@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bebida.cs" />
-    <Compile Include="IngredientesPlatos.cs" />
-    <Compile Include="MenuRestaurante.cs" />
-    <Compile Include="Plato.cs" />
-    <Compile Include="ClienteReserva.cs" />
-    <Compile Include="Empleado.cs" />
-    <Compile Include="Mesa.cs" />
+    <Compile Include="Entidades\Bebida.cs" />
+    <Compile Include="Entidades\IngredientesPlatos.cs" />
+    <Compile Include="Entidades\MenuRestaurante.cs" />
+    <Compile Include="Entidades\Plato.cs" />
+    <Compile Include="Entidades\ClienteReserva.cs" />
+    <Compile Include="Entidades\Empleado.cs" />
+    <Compile Include="Entidades\Mesa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reserva.cs" />
-    <Compile Include="Sector.cs" />
+    <Compile Include="Entidades\Reserva.cs" />
+    <Compile Include="Entidades\Sector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
