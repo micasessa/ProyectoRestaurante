@@ -8,5 +8,24 @@ namespace ProyRestaurante.Libreria
 {
     class Sector
     {
+        private int _idSector;
+        private string _nombreSector;
+        private double _sueldoPorSector;
+
+
+        public int CodigoSector
+        {
+            get { return _idSector; }
+        }
+
+        public double SueldoSector
+        {
+            get { return _sueldoPorSector; }
+        }
+
+        public string NombreSector
+        {
+            get { return _nombreSector; }
+        }
     }
 }

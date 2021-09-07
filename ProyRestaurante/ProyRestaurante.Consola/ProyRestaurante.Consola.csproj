@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyRestaurante.Libreria\ProyRestaurante.Libreria.csproj">
+      <Project>{11bb90a0-b84e-4d2c-86fd-49571d06b75f}</Project>
+      <Name>ProyRestaurante.Libreria</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyRestaurante.Libreria
 {
-    class Class1
+    class Plato
     {
     }
 }
