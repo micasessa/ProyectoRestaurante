@@ -12,7 +12,7 @@ namespace ProyRestaurante.Libreria.Entidades
         private string _nombreSector;
         private double _sueldoPorSector;
 
-
+        //creacion propiedades de la clase Sector
         public int CodigoSector
         {
             get { return _idSector; }
@@ -27,5 +27,17 @@ namespace ProyRestaurante.Libreria.Entidades
         {
             get { return _nombreSector; }
         }
+
+        //Creacion constructores
+        public Sector(int idSector)
+        {
+            _idSector = idSector;
+        }
+
+        public Sector (double sueldoPorSector)
+        {
+            _sueldoPorSector = sueldoPorSector;
+        }
+
     }
 }

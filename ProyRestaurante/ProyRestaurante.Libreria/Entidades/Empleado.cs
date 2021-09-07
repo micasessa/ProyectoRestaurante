@@ -50,6 +50,15 @@ namespace ProyRestaurante.Libreria.Entidades
             set { _apellidoEmpleado = value; }
         }
 
+        //creacion Constructor1
+        public Empleado(int idEmpleado, string nombreEmpleado, string apellidoEmpleado, double sueldoEmpleado, int idSector)
+        {
+            _idEmpleado = idEmpleado;
+            _nombreEmpleado = nombreEmpleado;
+            _apellidoEmpleado = apellidoEmpleado;
+            _sueldoEmpleado = new Sector(sueldoEmpleado);
+            _idSector = new Sector(idSector);
+        }
 
 
 
